@@ -45,74 +45,122 @@
         <p>The rotating cube? No that's not OpenGL/WebGL. That's CSS transforms and a bit of javascript. 
             There's more than one way to solve a problem.</p>
     </div>
+
     <div class="main-content">
+        <p class="video-text">I started with a static triangle and progressed to a triangle that warps a bit and fades with a 
+            solid colour.</p>
         <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/BExGOOVV5L0" frameborder="0"
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/b6EwOL2qtzM" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
-        <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/AChGfy_wVGQ" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Xk95G9cN95E" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wW6BbrxWhu0" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/0w-XUojd2ko" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/iLUjAG5kRGc" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ow1-pasEW7c" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_xVPBNvfhQ4" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KeqMGAsiVl4" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/K_0eMzls7Vw" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/UvTb0QMPE0c" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/z_7mCfs2dW0" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
+
+        <p class="video-text">The triangle now warps a bit and flies around while fading a different colour on each vertex 
+            that is interpolated between each vertex.</p>
         <div class="youtube">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/sfWf2ODosRw" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
+
+        <p class="video-text">This version had a bug but the result was it made this lovely pattern so I recorded it.</p>
         <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/b6EwOL2qtzM" frameborder="0"
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/z_7mCfs2dW0" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <p class="video-text">This was the version without the bug and is doing what I intended it to do. People have expressed 
+            a preference for the version that had a bug </p>
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UvTb0QMPE0c" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>        
+        
+        <p class="video-text">This version has keyboard support to move the camera in and out and the ability to switch between 
+            a static camera and a rotating one.</p>
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/K_0eMzls7Vw" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p class="video-text">This version has more complex geometry support and I can now dynamically create lists of vertices 
+            and use an Element Buffer to link them into triangles. This allows me to create the diamonds, 
+            squares, and spheres you see in this video.</p>
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KeqMGAsiVl4" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        
+        <p class="video-text">The more complex geometry support I added in a previous version now allows me to create a 
+            groundplane. This is demonstrated in this video with a vertex shader that is manipulating each 
+            vertex of the groundplane using a sine wave and noise generator contained in the shader.</p>
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_xVPBNvfhQ4" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <p class="video-text">I recently added texture coordinates, failed miserably to get bitmap textures working but found 
+            out other than the actual bitmap data not getting to the card buffer all the other code was 
+            working fine, so I started playing with fragment #shaders​, z-ordering, and blending. This is the 
+            result.</p>
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ow1-pasEW7c" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <p class="video-text">After failing miserably to get bitmap textures working but finding out other than 
+            the actual bitmap data not getting to the card buffer all the other code was 
+            working fine, I started playing with z-ordering, and blending. This is another result of 
+            that where I'm constructing a photographic image of mine from a set of layered, transparent, 
+            coloured triangles.</p>
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iLUjAG5kRGc" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <p class="video-text">This is another result of the z-ordering, and blending where I'm constructing a 
+            photographic image of mine from a set of layered, transparent, coloured triangles. This demo 
+            shows off the construction of the image quite well.</p>
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0w-XUojd2ko" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <p class="video-text">Recently I've been looking at FFT sound analysis and this is the first integration of that as well 
+            as in program sound playback, written a few minutes before this was recorded. So now I can make 
+            objects 'bounce' to the music playing.</p>
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wW6BbrxWhu0" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <p class="video-text">I played some more with the realtime FFT sound analysis and have been integrating it in 
+            to the inputs for the shaders. This is the result so far.</p>
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Xk95G9cN95E" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <p class="video-text">I've now gotten texture loading working and decided to bring back the original Triangle for a starring role.</p>
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AChGfy_wVGQ" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <p class="video-text">My latest additions are simple lighting, some new shaders, a simple scripting process, and a Voronoi 
+            and Simplex noise based landscape generator.</p>
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BExGOOVV5L0" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
@@ -129,9 +177,25 @@
                 font-size: 24px;
             }
 
+            p.video-text {
+                color: whitesmoke;
+                font-size: 16px;
+                width: 560px;
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding-left: 15px;
+                padding-top: 10px;
+                border: solid 2px whitesmoke;
+                border-bottom: 0;
+            }
+
             .main-content {
                 margin: 0;
+                margin-top: 14px;
+                padding-top: 14px;
                 width: 100%;
+                border-top: 2px solid whitesmoke;
             }
 
             .header-content {
